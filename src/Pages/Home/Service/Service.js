@@ -11,7 +11,7 @@ const Service = (props) => {
             navigate(`/service/${id}`);
     };
     return (
-        <div className='service'>
+        <div id='services' className='service'>
             <img src={img} alt="" />
             <h2>{name}</h2>
            <h3> $ {price}</h3>
